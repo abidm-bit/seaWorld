@@ -3,4 +3,4 @@ project(seaWorld C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(seaWorld main.c)
+add_executable(seaWorld HelloWorld.c)

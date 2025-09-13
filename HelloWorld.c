@@ -12,16 +12,21 @@
  *
  */
 
+void main() {
+    printf("kevin, what do u mean see the world or sea world?");
+    printf("\n");
+    printf("see world: oceans, fish, CHINA ");
+    printf("\n");
+}
+
+/*
 int sum2digits(int a, int b) {
     return a+b;
 }
 
 int main(void) {
-    printf("kevin, what do u mean see the world or sea world?");
-    printf("\n");
-    printf("see world: oceans, fish, CHINA ");
-    printf("\n");
     int add = sum2digits(11, 15);
     printf("Sum is: %d", add);
     return 0;
 }
+ */
