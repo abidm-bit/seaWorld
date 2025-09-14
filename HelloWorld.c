@@ -11,7 +11,7 @@ int sumThreeNumbers(int a, int b, int c){
 
 void metalRock(){
     for(int start = 1; start <= 3;start++) {
-        printf("%d NOTHINGS WRONG WITH ME\n", start);
+        printf("\n%d NOTHINGS WRONG WITH ME\n", start);
     }
 
     for(int bridge = 1; bridge <=3; bridge++){
@@ -23,7 +23,7 @@ void metalRock(){
     for(int end=1;end<=3;end++){
         printf("\nLET THE BODIES HIT THE FLOOR\n");
     }
-    printf("\nLET THE BODIES HIT THE FLOOOOORRRRR");
+    printf("\nLET THE BODIES HIT THE FLOOOOORRRRR\n");
 }
 
 /*  header file:  #include <stdio.h>
