@@ -1,32 +1,42 @@
 #include <stdio.h>
 
+void theOffice(){
+    printf("\nKevin, what you mean, see the world or seaworld?");
+    printf("\nC world, oceans, fish, CHINA\n");
+}
+
+int sumThreeNumbers(int a, int b, int c){
+    return a + b + c;
+}
+
+void metalRock(){
+    for(int start = 1; start <= 3;start++) {
+        printf("%d NOTHINGS WRONG WITH ME\n", start);
+    }
+
+    for(int bridge = 1; bridge <=3; bridge++){
+        printf("\nSomethings got to give\n");
+    }
+
+    printf("AHHHHHH");
+
+    for(int end=1;end<=3;end++){
+        printf("\nLET THE BODIES HIT THE FLOOR\n");
+    }
+    printf("\nLET THE BODIES HIT THE FLOOOOORRRRR");
+}
+
 /*  header file:  #include <stdio.h>
- *  int main(void){
- *  return 0
- *  }
- *
- *   In C, main is the entry point, like psvm / void main() in Java
- *   return 0 = indicates success
- *   non zero = failure
- *
- *
+ *   In C, main is the entry point, like psvm in Java
+ *   return 0 = processed
  */
 
-void main() {
-    printf("kevin, what do u mean see the world or sea world?");
-    printf("\n");
-    printf("see world: oceans, fish, CHINA ");
-    printf("\n");
-}
 
-/*
-int sum2digits(int a, int b) {
-    return a+b;
-}
-
-int main(void) {
-    int add = sum2digits(11, 15);
-    printf("Sum is: %d", add);
+int main(){
+    theOffice();
+    printf("\n");
+    printf("%d", sumThreeNumbers(4,5,6));
+    printf("\n");
+    metalRock();
     return 0;
 }
- */
